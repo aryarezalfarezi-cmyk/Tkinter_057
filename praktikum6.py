@@ -27,3 +27,13 @@ label_judul = tk.Label(
 label_judul.grid(row=0, column=0, columnspan=2, pady=(0, 25))
 
 input_nilai = []
+
+for i in range(10):
+    label_mapel = tk.Label(
+        frame,
+        text=f"Nilai Mata Pelajaran {i + 1}:",
+        font=("Arial", 10),
+        fg="white",
+        bg="#244fbd",
+        anchor="w"
+    )
