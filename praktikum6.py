@@ -37,3 +37,7 @@ for i in range(10):
         bg="#244fbd",
         anchor="w"
     )
+    label_mapel.grid(
+        row=i + 1, column=0, sticky="w",
+        padx=(0, 12), pady=5
+    )
