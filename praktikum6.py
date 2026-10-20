@@ -13,3 +13,6 @@ def hasil_prediksi():
 root.geometry("500x600")
 root.configure(bg="#244fbd")
 root.resizable(False, False)
+
+frame = tk.Frame(root, bg="#244fbd", padx=30, pady=25)
+frame.pack(fill="both", expand=True)
