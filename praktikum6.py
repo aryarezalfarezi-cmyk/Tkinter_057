@@ -16,3 +16,5 @@ root.resizable(False, False)
 
 frame = tk.Frame(root, bg="#244fbd", padx=30, pady=25)
 frame.pack(fill="both", expand=True)
+
+label_judul = tk.Label(
