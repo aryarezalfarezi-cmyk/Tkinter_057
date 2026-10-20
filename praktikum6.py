@@ -25,3 +25,5 @@ label_judul = tk.Label(
     bg="#244fbd"
 )
 label_judul.grid(row=0, column=0, columnspan=2, pady=(0, 25))
+
+input_nilai = []
