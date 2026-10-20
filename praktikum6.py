@@ -18,3 +18,9 @@ frame = tk.Frame(root, bg="#244fbd", padx=30, pady=25)
 frame.pack(fill="both", expand=True)
 
 label_judul = tk.Label(
+     frame,
+    text="Aplikasi Prediksi Prodi Pilihan",
+    font=("Arial", 17, "bold"),
+    fg="white",
+    bg="#244fbd"
+)
